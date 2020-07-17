@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "./node_modules/.bin/tsc-watch --onSuccess \"node ./dist/server.js\"",
+    "test": "jest --watchAll --coverage --runInBand"
   },
   "keywords": [],
   "author": "",
