@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "./node_modules/.bin/tsc-watch --onSuccess \"node ./dist/server.js\"",
+    "dev": "./node_modules/.bin/tsc-watch --onSuccess \"node ./dist/index.js\"",
     "test": "jest --watchAll --coverage --runInBand"
   },
   "keywords": [],
@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^14.0.23",
+    "tsc-watch": "^4.2.9",
     "typescript": "^3.9.7"
   }
 }
