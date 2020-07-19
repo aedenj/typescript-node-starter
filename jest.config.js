@@ -7,6 +7,7 @@ module.exports = {
     "src/specs"
   ],
   verbose: true,
+  collectCoverage: true,
   transform: {
     "^.+\\.tsx?$": "ts-jest"
   },

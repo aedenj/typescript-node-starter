@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "setup": "rm -rf .git;npm i",
-    "dev": "npm i;./node_modules/.bin/tsc-watch --onSuccess \"node ./dist/index.js\"",
-    "test": "jest --watchAll --coverage --runInBand"
+    "watch": "npm i;./node_modules/.bin/tsc-watch --onSuccess \"node ./dist/index.js\"",
+    "test": "jest --watchAll --coverage --runInBand",
+    "coverage": "open -a Safari coverage/lcov-report/index.html"
   },
   "keywords": [],
   "author": "",

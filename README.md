@@ -20,6 +20,6 @@ cd ~/projects/my-node-server;docker run -it --rm node:alpine "npm run setup"
 
 The `npm run setup` command will remove the git directory and run npm install.
 
-Running the server under tsc-watch is done by running `docker-compose run app sh -c "npm run dev"`
+Running the server under tsc-watch is done by running `docker-compose run app sh -c "npm run watch"`
 
 Continuous testing is supported by running `docker-compose run test sh -c "npm test"`
